@@ -1,22 +1,28 @@
-# 🎯 Number Guessing Game – C++
+ # 🎯 Number Guessing Game Using Binary Search – C++
 
-A simple and interactive **Number Guessing Game** built using C++. This project is part of my journey of learning C++ programming and improving my problem-solving skills.
+A beginner-friendly, interactive console-based game developed using **C++**, where the computer tries to guess the number you are thinking of between 1 and 100 using the **Binary Search Algorithm**.
+
+This project is part of my C++ learning journey, helping me understand programming logic and develop problem-solving skills.
 
 ## 📌 About the Project
 
-The Number Guessing Game is a beginner-friendly console-based application in which the player tries to guess a randomly generated number.
+In this game, the player thinks of a number between 1 and 100, and the computer attempts to guess it.
 
-The game provides an opportunity to practise basic programming concepts while creating an interactive program.
+The computer starts by guessing the middle number of the given range. Based on the player's feedback, it adjusts the range and makes another guess until it finds the correct number.
+
+The player provides feedback using three options:
+
+- `0` – The computer guessed correctly.
+- `1` – Your number is greater than the computer's guess.
+- `2` – Your number is smaller than the computer's guess.
 
 ## ✨ Features
 
-- Random number generation.
-- User input to guess the number.
-- Conditional statements to check guesses.
-- Interactive console-based gameplay.
-- Simple and beginner-friendly design.
-
-*Note: Keep only the features that are actually implemented in your code.*
+- Computer guesses the number between 1 and 100.
+- Uses the Binary Search approach.
+- Interactive user feedback system.
+- Automatically adjusts the guessing range.
+- Simple console-based interface.
 
 ## 🛠️ Technologies Used
 
@@ -26,44 +32,39 @@ The game provides an opportunity to practise basic programming concepts while cr
 
 ## 💻 How to Run the Project
 
-1. Clone or download this repository.
-2. Open the project folder in Visual Studio Code.
-3. Open the terminal.
-4. Compile the program using:
+Follow these steps to run the project on Windows:
+
+**1. Clone or download this repository.**
+
+**2. Open the project folder in Visual Studio Code.**
+
+**3. Open the VS Code terminal.**
+
+**4. Compile the program using:**
 
 ```bash
 g++ number_guess.cpp -o number_guess
 ```
 
-5. Run the program on Windows:
+**5. Run the program using:**
 
 ```bash
 .\number_guess.exe
 ```
 
-*Make sure the filename in the compile command matches your actual C++ source file.*
-
-## 📚 Concepts Practised
+## 📚 C++ Concepts Practised
 
 - Variables and Data Types
 - User Input and Output
-- Conditional Statements
-- Loops
-- Random Number Generation
+- Conditional Statements (`if-else`)
+- While Loop
+- Binary Search Algorithm
 - Basic Problem-Solving
 
-## 🎓 Learning Experience
+## 🎓 My Learning Experience
 
-Building this project helped me practise fundamental C++ concepts and understand how programming logic can be used to create interactive applications.
+Building this project helped me understand how the Binary Search approach works and how a computer can narrow down a search range using logical decisions.
 
-I am continuously learning, practising, and building new projects as I progress in my C++ development journey.
+It was a great opportunity to practise C++ fundamentals and improve my problem-solving abilities.
 
-## 👨‍💻 Author
-
-**Tarun Singh**
-
-An aspiring developer exploring C++ programming and building projects one step at a time.
-
----
-
-⭐ If you find this project interesting, feel free to explore the repository!
+I look forward to building more projects and learning new concepts as I continue my programming
