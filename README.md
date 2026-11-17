@@ -67,4 +67,14 @@ Building this project helped me understand how the Binary Search approach works 
 
 It was a great opportunity to practise C++ fundamentals and improve my problem-solving abilities.
 
-I look forward to building more projects and learning new concepts as I continue my programming
+I look forward to building more projects and learning new concepts as I continue my programming journey.
+
+## 👨‍💻 Author
+
+**Tarun Singh**
+
+First-Year B.Tech Student | Aspiring Software Developer | C++ Learner
+
+---
+
+⭐ Thank you for visiting my project! Feel free to explore the repository.
